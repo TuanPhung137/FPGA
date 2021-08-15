@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+netgen -intstyle ise -ar Structure -tm control_led -w -dir netgen/synthesis -ofmt vhdl -sim control_led.ngc control_led_synthesis.vhd 
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o control_led_map.ncd control_led.ngd control_led.pcf 
+par -w -intstyle ise -ol high -t 1 control_led_map.ncd control_led.ncd control_led.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml control_led.twx control_led.ncd -o control_led.twr control_led.pcf -ucf control_led.ucf 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.syr" 
+netgen -intstyle ise -ar Structure -tm control_led -w -dir netgen/synthesis -ofmt vhdl -sim control_led.ngc control_led_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o control_led_map.ncd control_led.ngd control_led.pcf 
+par -w -intstyle ise -ol high -t 1 control_led_map.ncd control_led.ncd control_led.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml control_led.twx control_led.ncd -o control_led.twr control_led.pcf -ucf control_led.ucf 
+bitgen -intstyle ise -f control_led.ut control_led.ncd 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.syr" 
+netgen -intstyle ise -ar Structure -tm control_led -w -dir netgen/synthesis -ofmt vhdl -sim control_led.ngc control_led_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+netgen -intstyle ise -ar Structure -tm control_led -w -dir netgen/synthesis -ofmt vhdl -sim control_led.ngc control_led_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o control_led_map.ncd control_led.ngd control_led.pcf 
+par -w -intstyle ise -ol high -t 1 control_led_map.ncd control_led.ncd control_led.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml control_led.twx control_led.ncd -o control_led.twr control_led.pcf -ucf control_led.ucf 
+bitgen -intstyle ise -f control_led.ut control_led.ncd 
+netgen -intstyle ise -ar Structure -tm control_led -w -dir netgen/synthesis -ofmt vhdl -sim control_led.ngc control_led_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc control_led.ucf -p xc4vsx35-ff668-10 "control_led.ngc" control_led.ngd  
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o control_led_map.ncd control_led.ngd control_led.pcf 
+par -w -intstyle ise -ol high -t 1 control_led_map.ncd control_led.ncd control_led.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml control_led.twx control_led.ncd -o control_led.twr control_led.pcf -ucf control_led.ucf 
+bitgen -intstyle ise -f control_led.ut control_led.ncd 

@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/full_adder
+Efull_adder
+Z1 w1615974940
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8full_adder.vhd
+Z7 Ffull_adder.vhd
+l0
+L8
+Vkz_13XK]4SX1T2onoVa0`0
+!s100 2LT:hK:1VFnLBilgNaN050
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1628757475
+!i10b 1
+Z10 !s108 1628757475.000000
+Z11 !s90 -reportprogress|300|full_adder.vhd|
+Z12 !s107 full_adder.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Adata_flow
+R2
+R3
+R4
+R5
+DEx4 work 10 full_adder 0 22 kz_13XK]4SX1T2onoVa0`0
+32
+R9
+l20
+L19
+VU<I2lH3_IM63PSK5LhJ_V1
+!s100 HK^88?76cP2BX@W4N[Tb12
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Etest_full
+Z14 w1617944945
+R2
+R3
+R4
+R5
+R0
+Z15 8test_full.vhd
+Z16 Ftest_full.vhd
+l0
+L8
+VP18IK?VCFQl4RkJ;A41Ek1
+!s100 ;4zJ9h^EP>90fi:a5AI>h0
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|test_full.vhd|
+Z18 !s107 test_full.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 9 test_full 0 22 P18IK?VCFQl4RkJ;A41Ek1
+32
+R9
+l26
+L11
+VnLG03jS<LEbg=<1Z8XT5d2
+!s100 IJTC`nzlhNonecIb4GlW30
+R8
+!i10b 1
+R10
+R17
+R18
+!i113 0
+R13

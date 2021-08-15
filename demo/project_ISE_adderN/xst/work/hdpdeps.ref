@@ -1,0 +1,9 @@
+V3 3
+FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_adderN/adderN.vhd" 2021/04/23.09:47:16 P.20131013
+EN work/adderN 1619493629 \
+      FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_adderN/adderN.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adderN/Behavioral 1619493630 \
+      FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_adderN/adderN.vhd" \
+      EN work/adderN 1619493629

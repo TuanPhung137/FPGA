@@ -1,0 +1,213 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/adder_sub
+Eadd_sub_gen
+Z1 w1617616662
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8add_sub_gen.vhd
+Z7 Fadd_sub_gen.vhd
+l0
+L8
+V37JVYCPXZL9hUZQQOQ]8l1
+!s100 >c4i_CXYWJI<g=1]O8]Z=0
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1617616665
+!i10b 1
+Z10 !s108 1617616665.000000
+Z11 !s90 -reportprogress|300|add_sub_gen.vhd|
+Z12 !s107 add_sub_gen.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+Z14 DEx4 work 6 addern 0 22 `7XOl:7VbUIz^BXTA>O930
+R2
+R3
+R4
+R5
+DEx4 work 11 add_sub_gen 0 22 37JVYCPXZL9hUZQQOQ]8l1
+32
+R9
+l35
+L19
+V5RHQQS]E_IWC4H^mdHSW20
+!s100 `@9kYn<TjM35TJfkMm=JW1
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Eadd_sub_test
+Z15 w1617616573
+R2
+R3
+R4
+R5
+R0
+Z16 8add_sub_test.vhd
+Z17 Fadd_sub_test.vhd
+l0
+L8
+VkR^<Oogm4TYGlAn8GjUH81
+!s100 AC@WkZN7=HT1MkC[]^DnS3
+R8
+32
+Z18 !s110 1617616666
+!i10b 1
+Z19 !s108 1617616666.000000
+Z20 !s90 -reportprogress|300|add_sub_test.vhd|
+Z21 !s107 add_sub_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 12 add_sub_test 0 22 kR^<Oogm4TYGlAn8GjUH81
+32
+R18
+l27
+L11
+VmAee?UzJQfINOAdKA0N:L1
+!s100 `2>F]bkSboZ9Ek84ndn?h2
+R8
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R13
+Eaddern
+Z22 w1617616383
+R2
+R3
+R4
+R5
+R0
+Z23 8adderN.vhd
+Z24 FadderN.vhd
+l0
+L8
+V`7XOl:7VbUIz^BXTA>O930
+!s100 bg;Ig[dD_mKZERIKz__o30
+R8
+32
+R9
+!i10b 1
+R10
+Z25 !s90 -reportprogress|300|adderN.vhd|
+Z26 !s107 adderN.vhd|
+!i113 0
+R13
+Aadd_3
+R2
+R3
+R4
+R5
+R14
+32
+R9
+l56
+L54
+ViT3k`eWQifiBl>=fAE4bX0
+!s100 0;Kz<m<D^ke^4b91;hXXM1
+R8
+!i10b 1
+R10
+R25
+R26
+!i113 0
+R13
+Aadd_2
+R2
+R3
+R4
+R5
+R14
+l43
+L32
+VPdWgWC5O?NMSc>WlfCKPP0
+!s100 NAETRGGcnK5_R1iKeLVAC3
+R8
+32
+R9
+!i10b 1
+R10
+R25
+R26
+!i113 0
+R13
+Aadd_1
+R2
+R3
+R4
+R5
+R14
+l23
+L19
+VQZZ67K8=@XBDbRPig`E>[3
+!s100 7ilj=Hlf=5CK>aP1ieGF;2
+R8
+32
+R9
+!i10b 1
+R10
+R25
+R26
+!i113 0
+R13
+Efull_adder
+Z27 w1617205229
+R2
+R3
+R4
+R5
+R0
+Z28 8full_adder.vhd
+Z29 Ffull_adder.vhd
+l0
+L8
+Vkz_13XK]4SX1T2onoVa0`0
+!s100 2LT:hK:1VFnLBilgNaN050
+R8
+32
+R9
+!i10b 1
+R10
+Z30 !s90 -reportprogress|300|full_adder.vhd|
+Z31 !s107 full_adder.vhd|
+!i113 0
+R13
+Adata_flow
+R2
+R3
+R4
+R5
+DEx4 work 10 full_adder 0 22 kz_13XK]4SX1T2onoVa0`0
+l20
+L19
+VU<I2lH3_IM63PSK5LhJ_V1
+!s100 HK^88?76cP2BX@W4N[Tb12
+R8
+32
+R9
+!i10b 1
+R10
+R30
+R31
+!i113 0
+R13

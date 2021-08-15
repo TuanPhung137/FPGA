@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Apr 12 11:20:07 2021
+# Process ID: 10720
+# Log file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_3/planAhead.log
+# Journal file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin E7 [get_ports {button[4]}]
+endgroup
+startgroup
+set_property package_pin F10 [get_ports {button[3]}]
+endgroup
+startgroup
+set_property package_pin A6 [get_ports {button[2]}]
+endgroup
+startgroup
+set_property package_pin E9 [get_ports {button[1]}]
+endgroup
+startgroup
+set_property package_pin B6 [get_ports {button[0]}]
+endgroup
+startgroup
+set_property package_pin G5 [get_ports {led[8]}]
+endgroup
+startgroup
+set_property package_pin G6 [get_ports {led[7]}]
+endgroup
+startgroup
+set_property package_pin A11 [get_ports {led[6]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {led[5]}]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports {led[4]}]
+endgroup
+startgroup
+set_property package_pin E10 [get_ports {led[3]}]
+endgroup
+startgroup
+set_property package_pin A5 [get_ports {led[2]}]
+endgroup
+startgroup
+set_property package_pin F9 [get_ports {led[1]}]
+endgroup
+startgroup
+set_property package_pin C6 [get_ports {led[0]}]
+endgroup
+startgroup
+set_property package_pin R20 [get_ports {sw[3]}]
+endgroup
+startgroup
+set_property package_pin R19 [get_ports {sw[2]}]
+endgroup
+startgroup
+set_property package_pin T26 [get_ports {sw[1]}]
+endgroup
+startgroup
+set_property package_pin U26 [get_ports {sw[0]}]
+endgroup
+save_constraints

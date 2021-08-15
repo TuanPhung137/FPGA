@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/shifter_2N
+Eshifter
+Z1 w1617595746
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8shifter.vhd
+Z8 Fshifter.vhd
+l0
+L9
+VS1>34[Kc0=f?o`m[<ZQ[Y3
+!s100 _z6k_Ra<Ni2caX3QSz2fb3
+Z9 OL;C;10.5;63
+32
+Z10 !s110 1617595891
+!i10b 1
+Z11 !s108 1617595891.000000
+Z12 !s90 -reportprogress|300|shifter.vhd|
+Z13 !s107 shifter.vhd|
+!i113 0
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+R6
+DEx4 work 7 shifter 0 22 S1>34[Kc0=f?o`m[<ZQ[Y3
+32
+R10
+l22
+L18
+V^al_Cc@G@cU5O?gB2Rlce1
+!s100 4l5CdGeBiX7;BQ>0i?FQb1
+R9
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+Eshifter_test
+Z15 w1617595876
+R2
+R3
+R4
+R5
+R6
+R0
+Z16 8shifter_test.vhd
+Z17 Fshifter_test.vhd
+l0
+L9
+V2eZcHHTH?^lDk6UeA^k8[3
+!s100 AVooFPJ`9dngNXn_k71FK2
+R9
+32
+R10
+!i10b 1
+R11
+Z18 !s90 -reportprogress|300|shifter_test.vhd|
+Z19 !s107 shifter_test.vhd|
+!i113 0
+R14
+Atest
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 shifter_test 0 22 2eZcHHTH?^lDk6UeA^k8[3
+32
+R10
+l24
+L12
+VaYok?4?7A_YD5QQajE;SH2
+!s100 V6n<cKI1i=KRH>QmU_>Y`1
+R9
+!i10b 1
+R11
+R18
+R19
+!i113 0
+R14

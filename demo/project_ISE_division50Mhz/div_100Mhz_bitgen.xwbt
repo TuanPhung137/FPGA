@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\project_ISE_division50Mhz\div_100Mhz.ncd
+OUTFILE=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\project_ISE_division50Mhz\div_100Mhz.bit
+FAMILY=Virtex4
+PART=xc4vsx35-10ff668
+WORKINGDIR=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\project_ISE_division50Mhz
+LICENSE=ISE
+USER_INFO=__0_0_0

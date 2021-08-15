@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier_adder/add_mul_2bit.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier_adder/add_mul_2bit.syr" 
+netgen -intstyle ise -ar Structure -tm add_mul_2bit -w -dir netgen/synthesis -ofmt vhdl -sim add_mul_2bit.ngc add_mul_2bit_synthesis.vhd 

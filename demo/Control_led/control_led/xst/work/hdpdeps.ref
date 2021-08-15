@@ -1,0 +1,8 @@
+V3 3
+FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.vhd" 2021/04/12.10:41:29 P.20131013
+EN work/control_led 1618201185 \
+      FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/control_led/Behavioral 1618201186 \
+      FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.vhd" \
+      EN work/control_led 1618201185

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\Control_led\impact.xsl
+OUTFILE=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\Control_led\impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\Control_led
+LICENSE=iMPACT
+USER_INFO=iMPACT

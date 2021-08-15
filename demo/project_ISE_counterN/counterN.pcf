@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Apr 23 09:27:56 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "cnt<4>" LOCATE = SITE "E10" LEVEL 1;
+COMP "cnt<5>" LOCATE = SITE "C6" LEVEL 1;
+COMP "cnt<6>" LOCATE = SITE "F9" LEVEL 1;
+COMP "clk" LOCATE = SITE "AE14" LEVEL 1;
+COMP "enable" LOCATE = SITE "R19" LEVEL 1;
+COMP "nreset" LOCATE = SITE "R20" LEVEL 1;
+COMP "cnt<0>" LOCATE = SITE "A12" LEVEL 1;
+COMP "cnt<1>" LOCATE = SITE "A11" LEVEL 1;
+COMP "cnt<2>" LOCATE = SITE "G6" LEVEL 1;
+COMP "cnt<3>" LOCATE = SITE "G5" LEVEL 1;
+SCHEMATIC END;
+

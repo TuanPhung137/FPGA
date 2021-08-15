@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/saparater
+Esaparater
+Z1 w1616778247
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8saparater.vhd
+Z7 Fsaparater.vhd
+l0
+L12
+VecY9I9gI:TjFgA7Aj_`7D0
+!s100 :J=zhLKjc6eehB[<hgmez2
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1616778622
+!i10b 1
+Z10 !s108 1616778622.000000
+Z11 !s90 -reportprogress|300|saparater.vhd|
+Z12 !s107 saparater.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 saparater 0 22 ecY9I9gI:TjFgA7Aj_`7D0
+32
+R9
+l26
+L20
+VKP0VX`2E@_RSTzUEG4f8?3
+!s100 ]W_7KUVJASU=>V6_<0BRc3
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Esaparater_test
+Z14 w1616778616
+R2
+R3
+R4
+R5
+R0
+Z15 8saparater_test.vhd
+Z16 Fsaparater_test.vhd
+l0
+L8
+V0dlCa5Ema0LYLfYzoRN>f0
+!s100 4KNmC:Q4_K2nlSehXG_l70
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|saparater_test.vhd|
+Z18 !s107 saparater_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 14 saparater_test 0 22 0dlCa5Ema0LYLfYzoRN>f0
+32
+R9
+l22
+L11
+VCYf@ZXImPPzY<I@j]31zI3
+!s100 UWB1fH>AESb=Mf7[JaAzm3
+R8
+!i10b 1
+R10
+R17
+R18
+!i113 0
+R13

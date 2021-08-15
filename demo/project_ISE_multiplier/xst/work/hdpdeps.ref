@@ -1,0 +1,9 @@
+V3 3
+FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.vhd" 2021/04/23.13:49:42 P.20131013
+EN work/multiplier_2bit 1621083760 \
+      FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/multiplier_2bit/Behavioral 1621083761 \
+      FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.vhd" \
+      EN work/multiplier_2bit 1621083760

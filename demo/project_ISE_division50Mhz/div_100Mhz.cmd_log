@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_division50Mhz/div_100Mhz.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_division50Mhz/div_100Mhz.syr" 
+netgen -intstyle ise -ar Structure -tm div_100Mhz -w -dir netgen/synthesis -ofmt vhdl -sim div_100Mhz.ngc div_100Mhz_synthesis.vhd 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_division50Mhz/div_100Mhz.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_division50Mhz/div_100Mhz.syr" 
+netgen -intstyle ise -ar Structure -tm div_100Mhz -w -dir netgen/synthesis -ofmt vhdl -sim div_100Mhz.ngc div_100Mhz_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc div_100Mhz.ucf -p xc4vsx35-ff668-10 "div_100Mhz.ngc" div_100Mhz.ngd  
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o div_100Mhz_map.ncd div_100Mhz.ngd div_100Mhz.pcf 
+par -w -intstyle ise -ol high -t 1 div_100Mhz_map.ncd div_100Mhz.ncd div_100Mhz.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml div_100Mhz.twx div_100Mhz.ncd -o div_100Mhz.twr div_100Mhz.pcf -ucf div_100Mhz.ucf 
+bitgen -intstyle ise -f div_100Mhz.ut div_100Mhz.ncd 

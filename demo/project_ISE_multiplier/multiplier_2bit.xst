@@ -1,0 +1,5 @@
+set -tmpdir "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/xst/projnav.tmp"
+set -xsthdpdir "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/xst"
+elaborate
+-ifn multiplier_2bit.prj
+-ifmt mixed

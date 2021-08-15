@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/LS7485
+T_opt
+!s110 1616223455
+VkkJ7nYA]D2@fVmVhjD>:k3
+04 11 4 work ls7485_test test 1
+=1-ecf4bb08b65c-60559cdf-138-2d8c
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+Els7485
+Z1 w1616223438
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8LS7485.vhd
+Z7 FLS7485.vhd
+l0
+L8
+VZi[H8ml[UdZidcTBdBLAa3
+!s100 SmTIlFm0iF1>ac4NkbkD[1
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1616223454
+!i10b 1
+Z10 !s108 1616223453.000000
+Z11 !s90 -reportprogress|300|LS7485.vhd|
+Z12 !s107 LS7485.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 6 ls7485 0 22 Zi[H8ml[UdZidcTBdBLAa3
+l18
+L17
+VdTi2zWDS_Y:Wgk@Pa9mMJ1
+!s100 64Zk6bo8O@7bc@A4ZUT>L0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Els7485_test
+Z14 w1616223162
+R2
+R3
+R4
+R5
+R0
+Z15 8LS7485_test.vhd
+Z16 FLS7485_test.vhd
+l0
+L8
+V1_f_oPb2S`Ob`?83Rzl5R2
+!s100 mZcjU51X[@;W>S>zX9C;N0
+R8
+32
+R9
+!i10b 1
+Z17 !s108 1616223454.000000
+Z18 !s90 -reportprogress|300|LS7485_test.vhd|
+Z19 !s107 LS7485_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 11 ls7485_test 0 22 1_f_oPb2S`Ob`?83Rzl5R2
+l26
+L11
+VlH6`9eE9=>ZRk[g4Y]JY70
+!s100 oe:VfXWkO?4HhN^8Y7zT43
+R8
+32
+R9
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R13

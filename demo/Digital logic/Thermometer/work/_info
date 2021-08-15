@@ -1,0 +1,111 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/Thermometer
+T_opt
+!s110 1616726040
+VY4=7zP@>^[01aUHUaHYcE3
+Z1 04 16 4 work thermometer_test test 1
+=1-ecf4bb08b65c-605d4817-3a5-1208
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.5;63
+R0
+T_opt1
+!s110 1616736084
+Vl2T5n5WV8Il<VHecQk;UI1
+R1
+=1-ecf4bb08b65c-605d6f54-d-1c38
+R2
+R3
+n@_opt1
+R4
+Ethermometer
+Z5 w1616736078
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z10 8thermometer.vhd
+Z11 Fthermometer.vhd
+l0
+L9
+VoJ6AOdUOh6L^ldHWXI0GF1
+!s100 81_ff3zmKSS3Bd^Eh08R`1
+Z12 OL;C;10.5;63
+32
+Z13 !s110 1616736082
+!i10b 1
+Z14 !s108 1616736082.000000
+Z15 !s90 -reportprogress|300|thermometer.vhd|
+Z16 !s107 thermometer.vhd|
+!i113 0
+Z17 tExplicit 1 CvgOpt 0
+Abehavioral
+R6
+R7
+R8
+R9
+DEx4 work 11 thermometer 0 22 oJ6AOdUOh6L^ldHWXI0GF1
+l17
+L16
+V8MgmFmDT;_^SJe1?j5@h:0
+!s100 S_8>EJcZQ:VGIl0cAchEJ3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+Ethermometer_test
+Z18 w1616726032
+R6
+R7
+R8
+R9
+R0
+Z19 8thermometer_test.vhd
+Z20 Fthermometer_test.vhd
+l0
+L8
+V5@3I9>?[0Qh[VzeOBWdL41
+!s100 I<:z34:LEImfTV<6[ledB1
+R12
+32
+Z21 !s110 1616736083
+!i10b 1
+Z22 !s108 1616736083.000000
+Z23 !s90 -reportprogress|300|thermometer_test.vhd|
+Z24 !s107 thermometer_test.vhd|
+!i113 0
+R17
+Atest
+R6
+R7
+R8
+R9
+DEx4 work 16 thermometer_test 0 22 5@3I9>?[0Qh[VzeOBWdL41
+l22
+L11
+VA?^6A1V[_R?_E0JI9SXUE2
+!s100 `cl_XdmODPzekCmT5YLXT1
+R12
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R17

@@ -1,0 +1,91 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/pa.fromNetlist.tcl}
+# create_project -name control_led -dir "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2" -part xc4vsx35ff668-10
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 708.871 ; gain = 43.410
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "control_led.ucf" [current_fileset -constrset]
+Adding file 'D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf' to fileset 'constrs_1'
+# add_files [list {control_led.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc4vsx35ff668-10
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design control_led.ngc ...
+WARNING:NetListWriters:298 - No output is written to control_led.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file control_led.edif ...
+ngc2edif: Total memory usage is 4309688 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/control_led.data/cache/control_led_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/control_led.data/cache/control_led_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/hd_int_macros.edn
+Parsing EDIF File [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/hd_int_macros.edn]
+INFO: [Device 21-21] Reading bus macro file D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/pr_bus_macros.xml
+Loading clock regions from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/xc4vsx35/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/xc4vsx35/ClockBuffers.xml
+Loading package from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/xc4vsx35/ff668/Package.xml
+Loading io standards from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/xc4vsx35/ff668/SSORules.xml
+Loading list of drcs for the architecture : D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/virtex4sx-10.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/virtex4sx-10.lib.
+Parsing UCF File [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'sw' [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf:3]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'led' [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf:4]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'led' [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf:7]
+Finished Parsing UCF File [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 8c5af8b5
+link_design: Time (s): elapsed = 00:00:22 . Memory (MB): peak = 912.457 ; gain = 168.875
+startgroup
+set_property package_pin G5 [get_ports {led[8]}]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list {led[8]}]]
+set_property package_pin "" [get_ports [list  {led[8]}]]
+startgroup
+set_property package_pin G5 [get_ports {led[8]}]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list {led[7]}]]
+set_property iostandard LVCMOS25 [get_ports [list {led[6]}]]
+save_constraints
+refresh_design
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/virtex4sx-10.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/virtex4sx-10.lib.
+Parsing UCF File [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf]
+CRITICAL WARNING: [Constraints 18-11] Could not find net or pin 'led' [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf:6]
+Finished Parsing UCF File [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+refresh_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 971.172 ; gain = 0.000
+refresh_design
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/virtex4sx-10.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/virtex4sx-10.lib.
+Parsing UCF File [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf]
+Finished Parsing UCF File [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/control_led.ucf]
+refresh_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 985.953 ; gain = 0.000
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Apr 12 11:19:17 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

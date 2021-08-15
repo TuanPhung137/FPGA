@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Apr 12 11:10:55 2021
+# Process ID: 9896
+# Log file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2/planAhead.log
+# Journal file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/pa.fromNetlist.tcl}
+# create_project -name control_led -dir "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2" -part xc4vsx35ff668-10
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2/control_led.ppr
+     D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2/control_led.data
+
+    while executing
+"create_project -name control_led -dir "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2" -part xc4vsx35ff668-10"
+    (file "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/pa.fromNetlist.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Mon Apr 12 11:19:27 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,13 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "cnt[6]" LOC = F9;
+NET "cnt[5]" LOC = C6;
+NET "cnt[4]" LOC = E10;
+NET "cnt[3]" LOC = G5;
+NET "cnt[2]" LOC = G6;
+NET "cnt[1]" LOC = A11;
+NET "cnt[0]" LOC = A12;
+NET "clk" LOC = AE14;
+NET "enable" LOC = R19;
+NET "nreset" LOC = R20;

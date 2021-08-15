@@ -1,0 +1,10 @@
+Sat Mar 27 00:07:18 ICT 2021
+Trace back: can't read "wavePriv(SaveWaveBalloonOn)": no such element in array
+    while executing
+"set PrefWave(WaveformPopupEnabled) $wavePriv(SaveWaveBalloonOn)"
+    (procedure "Wave::DragZoomEnd" line 21)
+    invoked from within
+"Wave::DragZoomEnd	.main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 0 297 330 1070 532 "
+    (command bound to event)
+  <2:C:/modeltech64_10.5/win64/tk8.5/bgerror.tcl:92: ::tkerror {can't read "wavePriv(SaveWaveBalloonOn)": no such element in array}
+  <1:eval:1: ::tk::dialog::error::bgerror {can't read "wavePriv(SaveWaveBalloonOn)": no such element in array}

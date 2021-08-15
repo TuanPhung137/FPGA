@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Apr 12 11:10:55 2021
+# Process ID: 9896
+# Log file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2/planAhead.log
+# Journal file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/pa.fromNetlist.tcl}

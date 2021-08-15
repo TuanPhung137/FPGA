@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/reg_asyn
+Ereg_asyn
+Z1 w1617161153
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8reg_asyn.vhd
+Z7 Freg_asyn.vhd
+l0
+L8
+VbmkY@d?WMPC0V84CW=2hg2
+!s100 9Ygga<A67[[7;bIQ_P]ci1
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1617161159
+!i10b 1
+Z10 !s108 1617161159.000000
+Z11 !s90 -reportprogress|300|reg_asyn.vhd|
+Z12 !s107 reg_asyn.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 8 reg_asyn 0 22 bmkY@d?WMPC0V84CW=2hg2
+32
+R9
+l18
+L17
+V0n_49:>Eb9<Kf3A4J@`Pm3
+!s100 1ePTm0zVBJQlc3o90VnVY0
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Ereg_test
+Z14 w1617161122
+R2
+R3
+R4
+R5
+R0
+Z15 8reg_test.vhd
+Z16 Freg_test.vhd
+l0
+L8
+V5cO02BDnP5kkUd15gmCil2
+!s100 n^?BI39WN0AHU<<VSmdiT2
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|reg_test.vhd|
+Z18 !s107 reg_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 8 reg_test 0 22 5cO02BDnP5kkUd15gmCil2
+32
+R9
+l24
+L11
+V1lj8ZV_^=?ek7HF[KRST]2
+!s100 GToCPCSf?[PQ9fkXLlK?B0
+R8
+!i10b 1
+R10
+R17
+R18
+!i113 0
+R13

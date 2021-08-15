@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Apr 12 11:25:32 2021
+
+drc -z control_led.ncd control_led.pcf
+
+DRC detected 0 errors and 0 warnings.

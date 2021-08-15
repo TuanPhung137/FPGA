@@ -1,0 +1,169 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/demo/UART
+Euart_rx
+Z1 w1629035085
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8UART_RX.vhd
+Z6 FUART_RX.vhd
+l0
+L10
+Ve>LjO0l3F0OQmFUlQZPL90
+!s100 L9C2LOKO?6Z`99d:f<^:;2
+Z7 OL;C;10.5;63
+32
+Z8 !s110 1629035965
+!i10b 1
+Z9 !s108 1629035965.000000
+Z10 !s90 -reportprogress|300|UART_RX.vhd|
+Z11 !s107 UART_RX.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z13 DEx4 work 7 uart_rx 0 22 e>LjO0l3F0OQmFUlQZPL90
+32
+R8
+l34
+L23
+VW[KKo4VB`LnlOERF=fB^^2
+!s100 Ln<98d=LIaQ`gj_[D3CIP3
+R7
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Euart_rx_tb
+Z14 w1629035240
+R2
+R3
+R4
+R0
+Z15 8UART_RX_TB.vhd
+Z16 FUART_RX_TB.vhd
+l0
+L5
+VX4EUjljKI9202=i@nXaI[1
+!s100 AT1I;l_7nf703j96aY4@_0
+R7
+32
+Z17 !s110 1629035756
+!i10b 1
+Z18 !s108 1629035755.000000
+Z19 !s90 -reportprogress|300|UART_RX_TB.vhd|
+Z20 !s107 UART_RX_TB.vhd|
+!i113 0
+R12
+Abehave
+R13
+R2
+R3
+R4
+DEx4 work 10 uart_rx_tb 0 22 X4EUjljKI9202=i@nXaI[1
+32
+R17
+l46
+L8
+VD:^88MGU?k:]WzY@_QIJ?1
+!s100 YY[j_Q9@kLCHR>Vi_IN6T2
+R7
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R12
+Euart_tb
+Z21 w1629035956
+R2
+R3
+R4
+R0
+Z22 8UART_TB.vhd
+Z23 FUART_TB.vhd
+l0
+L5
+V2d]Tc>obPEV8C4EnEnUGn1
+!s100 ZiVH0HVLgc=1YhKf43^V51
+R7
+32
+Z24 !s110 1629035966
+!i10b 1
+Z25 !s108 1629035966.000000
+Z26 !s90 -reportprogress|300|UART_TB.vhd|
+Z27 !s107 UART_TB.vhd|
+!i113 0
+R12
+Abehave
+R13
+Z28 DEx4 work 7 uart_tx 0 22 A:IDdE0ZamF4ffM1GjVSO0
+R2
+R3
+R4
+DEx4 work 7 uart_tb 0 22 2d]Tc>obPEV8C4EnEnUGn1
+32
+R24
+l51
+L8
+Vg>3jfnGVWSC738^IOA`Hn2
+!s100 =R:0[WP:QAD^jY]IC2Ci:3
+R7
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R12
+Euart_tx
+Z29 w1629035102
+R2
+R3
+R4
+R0
+Z30 8UART_TX.vhd
+Z31 FUART_TX.vhd
+l0
+L10
+VA:IDdE0ZamF4ffM1GjVSO0
+!s100 [0n`YYQ<CVIKNH;EC:[3g1
+R7
+32
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|UART_TX.vhd|
+Z33 !s107 UART_TX.vhd|
+!i113 0
+R12
+Artl
+R2
+R3
+R4
+R28
+32
+R8
+l36
+L25
+V_QDQ8df<zcBRzPZe?N]j80
+!s100 b5d=7N:FI>fmmN;X0_Jag3
+R7
+!i10b 1
+R9
+R32
+R33
+!i113 0
+R12

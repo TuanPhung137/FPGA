@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "A[1]" LOC = R20;
+NET "A[0]" LOC = R19;
+NET "B[1]" LOC = T26;
+NET "B[0]" LOC = U26;
+NET "C[3]" LOC = U23;
+NET "C[2]" LOC = V23;
+NET "C[1]" LOC = U25;
+NET "C[0]" LOC = U24;
+NET "result[3]" LOC = G5;
+NET "result[2]" LOC = G6;
+NET "result[1]" LOC = A11;
+NET "result[0]" LOC = A12;
+NET "mem_flag" LOC = C6;

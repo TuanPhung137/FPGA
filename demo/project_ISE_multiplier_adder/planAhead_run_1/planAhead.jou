@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Apr 23 14:13:53 2021
+# Process ID: 10528
+# Log file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier_adder/planAhead_run_1/planAhead.log
+# Journal file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier_adder/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier_adder/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin R20 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin R19 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin T26 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin U26 [get_ports {B[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {C[3]}]]
+startgroup
+set_property package_pin U23 [get_ports {C[3]}]
+endgroup
+startgroup
+set_property package_pin V23 [get_ports {C[2]}]
+endgroup
+startgroup
+set_property package_pin U25 [get_ports {C[1]}]
+endgroup
+startgroup
+set_property package_pin U24 [get_ports {C[0]}]
+endgroup
+startgroup
+set_property package_pin G5 [get_ports {result[3]}]
+endgroup
+startgroup
+set_property package_pin G6 [get_ports {result[2]}]
+endgroup
+startgroup
+set_property package_pin A11 [get_ports {result[1]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {result[0]}]
+endgroup
+startgroup
+set_property package_pin C6 [get_ports mem_flag]
+endgroup
+save_constraints

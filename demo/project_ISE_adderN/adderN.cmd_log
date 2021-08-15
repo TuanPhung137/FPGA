@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_adderN/adderN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_adderN/adderN.syr" 
+netgen -intstyle ise -ar Structure -tm adderN -w -dir netgen/synthesis -ofmt vhdl -sim adderN.ngc adderN_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx35-ff668-10 "adderN.ngc" adderN.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm adderN -w -dir netgen/translate -ofmt vhdl -sim adderN.ngd adderN_translate.vhd 
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o adderN_map.ncd adderN.ngd adderN.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml adderN_preroute.twx adderN_map.ncd -o adderN_preroute.twr adderN.pcf 
+netgen -intstyle ise -s 10  -pcf adderN.pcf -rpw 100 -tpw 0 -ar Structure -tm adderN -w -dir netgen/map -ofmt vhdl -sim adderN_map.ncd adderN_map.vhd 
+netgen -intstyle ise -ar Structure -tm adderN -w -dir netgen/synthesis -ofmt vhdl -sim adderN.ngc adderN_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adderN.ucf -p xc4vsx35-ff668-10 "adderN.ngc" adderN.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm adderN -w -dir netgen/translate -ofmt vhdl -sim adderN.ngd adderN_translate.vhd 
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o adderN_map.ncd adderN.ngd adderN.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml adderN_preroute.twx adderN_map.ncd -o adderN_preroute.twr adderN.pcf -ucf adderN.ucf 
+netgen -intstyle ise -s 10  -pcf adderN.pcf -rpw 100 -tpw 0 -ar Structure -tm adderN -w -dir netgen/map -ofmt vhdl -sim adderN_map.ncd adderN_map.vhd 
+par -w -intstyle ise -ol high -t 1 adderN_map.ncd adderN.ncd adderN.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml adderN.twx adderN.ncd -o adderN.twr adderN.pcf -ucf adderN.ucf 
+netgen -intstyle ise -s 10  -pcf adderN.pcf -rpw 100 -tpw 0 -ar Structure -tm adderN -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim adderN.ncd adderN_timesim.vhd 
+bitgen -intstyle ise -f adderN.ut adderN.ncd 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_adderN/adderN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_adderN/adderN.syr" 
+netgen -intstyle ise -ar Structure -tm adderN -w -dir netgen/synthesis -ofmt vhdl -sim adderN.ngc adderN_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc adderN.ucf -p xc4vsx35-ff668-10 "adderN.ngc" adderN.ngd  
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o adderN_map.ncd adderN.ngd adderN.pcf 
+par -w -intstyle ise -ol high -t 1 adderN_map.ncd adderN.ncd adderN.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml adderN.twx adderN.ncd -o adderN.twr adderN.pcf -ucf adderN.ucf 
+bitgen -intstyle ise -f adderN.ut adderN.ncd 

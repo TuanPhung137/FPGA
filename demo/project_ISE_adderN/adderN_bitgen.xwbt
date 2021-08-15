@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\project_ISE_adderN\adderN.ncd
+OUTFILE=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\project_ISE_adderN\adderN.bit
+FAMILY=Virtex4
+PART=xc4vsx35-10ff668
+WORKINGDIR=D:\Document FPGA\ThayThuy\FPGA\Virtex_4_ML402\project_ISE_adderN
+LICENSE=ISE
+USER_INFO=__0_0_0

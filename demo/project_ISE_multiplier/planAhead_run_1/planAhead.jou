@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Apr 23 13:50:19 2021
+# Process ID: 11348
+# Log file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/planAhead_run_1/planAhead.log
+# Journal file: D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin R20 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin R19 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin T26 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin U26 [get_ports {B[0]}]
+endgroup
+startgroup
+set_property package_pin G5 [get_ports {mul[3]}]
+endgroup
+startgroup
+set_property package_pin G6 [get_ports {mul[2]}]
+endgroup
+startgroup
+set_property package_pin A11 [get_ports {mul[1]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {mul[0]}]
+endgroup
+save_constraints

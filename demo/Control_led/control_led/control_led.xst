@@ -1,0 +1,5 @@
+set -tmpdir "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/xst/projnav.tmp"
+set -xsthdpdir "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/Control_led/control_led/xst"
+elaborate
+-ifn control_led.prj
+-ifmt mixed

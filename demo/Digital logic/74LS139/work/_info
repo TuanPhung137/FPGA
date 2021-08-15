@@ -1,0 +1,101 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/74LS139
+T_opt
+!s110 1616136823
+VbhbRk;DZaBUnTg:kNfPFi0
+04 12 4 work ls74139_test test 1
+=1-ecf4bb08b65c-60544a76-311-2c50
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+Els74139
+Z1 w1616136811
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8LS74139.vhd
+Z7 FLS74139.vhd
+l0
+L8
+Vi_OOcm^M6LoL?`Cn`jm>l1
+!s100 Ybb]kPjCzdIiibZTNWCcc1
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1616136821
+!i10b 1
+Z10 !s108 1616136821.000000
+Z11 !s90 -reportprogress|300|LS74139.vhd|
+Z12 !s107 LS74139.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 7 ls74139 0 22 i_OOcm^M6LoL?`Cn`jm>l1
+l63
+L62
+V^ILRT[T6cn9AfX>6oIQn@0
+!s100 ]=5Bc6YlhL=`CEhF?zHmX3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Els74139_test
+Z14 w1616134744
+R2
+R3
+R4
+R5
+R0
+Z15 8LS74139_test.vhd
+Z16 FLS74139_test.vhd
+l0
+L11
+V`F7R5E9O<^O29_AdSmTF]2
+!s100 R2`<7H6S_FUGl@3[YK`_`2
+R8
+32
+Z17 !s110 1616136822
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|LS74139_test.vhd|
+Z19 !s107 LS74139_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 12 ls74139_test 0 22 `F7R5E9O<^O29_AdSmTF]2
+l32
+L17
+VU1k1?hA37LQ6UADOamzIH2
+!s100 J:1LmhkmnlF;;U]Tcf9c=0
+R8
+32
+R17
+!i10b 1
+R10
+R18
+R19
+!i113 0
+R13

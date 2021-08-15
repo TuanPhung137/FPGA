@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/NBCD
+Enbcd
+Z1 w1617286028
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8NBCD.vhd
+Z7 FNBCD.vhd
+l0
+L8
+VNaile1AKe5?6Kk0oj5KPG2
+!s100 GKZg?@>OA8Gff@dBj7ES_2
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1617286528
+!i10b 1
+Z10 !s108 1617286528.000000
+Z11 !s90 -reportprogress|300|NBCD.vhd|
+Z12 !s107 NBCD.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 4 nbcd 0 22 Naile1AKe5?6Kk0oj5KPG2
+32
+R9
+l20
+L18
+Vnngm:La^>G:Z?hMf@a9Vd2
+!s100 cdEJFNn6egz6MR;Yn2IaW0
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Enbcd_test
+Z14 w1617286485
+R2
+R3
+R4
+R5
+R0
+Z15 8NBCD_test.vhd
+Z16 FNBCD_test.vhd
+l0
+L8
+V5cQUa;`GEL0Y]YNjOeT_k2
+!s100 J9[]TghBEHOJ[BbDHoZ8>0
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|NBCD_test.vhd|
+Z18 !s107 NBCD_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 9 nbcd_test 0 22 5cQUa;`GEL0Y]YNjOeT_k2
+32
+R9
+l25
+L11
+VFoVS:oJzzWUi;@i]]MXJ;0
+!s100 h_;j]7DbB1o=8c21b45LW1
+R8
+!i10b 1
+R10
+R17
+R18
+!i113 0
+R13

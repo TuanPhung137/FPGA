@@ -1,0 +1,61 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/pa.fromNetlist.tcl}
+# create_project -name project_ISE_counterN -dir "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/planAhead_run_3" -part xc4vsx35ff668-10
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "counterN.ucf" [current_fileset -constrset]
+Adding file 'D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.ucf' to fileset 'constrs_1'
+# add_files [list {counterN.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc4vsx35ff668-10
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design counterN.ngc ...
+WARNING:NetListWriters:298 - No output is written to counterN.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file counterN.edif ...
+ngc2edif: Total memory usage is 4309680 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/project_ISE_counterN.data/cache/counterN_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/project_ISE_counterN.data/cache/counterN_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/hd_int_macros.edn
+Parsing EDIF File [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/hd_int_macros.edn]
+INFO: [Device 21-21] Reading bus macro file D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/pr_bus_macros.xml
+Loading clock regions from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/xc4vsx35/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/xc4vsx35/ClockBuffers.xml
+Loading package from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/xc4vsx35/ff668/Package.xml
+Loading io standards from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/xc4vsx35/ff668/SSORules.xml
+Loading list of drcs for the architecture : D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex4/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/virtex4sx-10.lib.
+INFO: [Timing 38-34] Done reading timing library D:/Xilinx/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex4/virtex4sx/virtex4sx-10.lib.
+Parsing UCF File [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.ucf]
+Finished Parsing UCF File [D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 828f0f7c
+link_design: Time (s): elapsed = 00:00:21 . Memory (MB): peak = 881.184 ; gain = 177.168
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Apr 27 09:57:15 2021...
+INFO: [Common 17-83] Releasing license: PlanAhead

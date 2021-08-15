@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_subtractionN/subtractionN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_subtractionN/subtractionN.syr" 
+netgen -intstyle ise -ar Structure -tm subtractionN -w -dir netgen/synthesis -ofmt vhdl -sim subtractionN.ngc subtractionN_synthesis.vhd 

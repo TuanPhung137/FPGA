@@ -1,0 +1,21 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "button[4]" LOC = E7;
+NET "button[3]" LOC = F10;
+NET "button[2]" LOC = A6;
+NET "button[1]" LOC = E9;
+NET "button[0]" LOC = B6;
+NET "led[8]" LOC = G5;
+NET "led[7]" LOC = G6;
+NET "led[6]" LOC = A11;
+NET "led[5]" LOC = A12;
+NET "led[4]" LOC = E2;
+NET "led[3]" LOC = E10;
+NET "led[2]" LOC = A5;
+NET "led[1]" LOC = F9;
+NET "led[0]" LOC = C6;
+NET "sw[3]" LOC = R20;
+NET "sw[2]" LOC = R19;
+NET "sw[1]" LOC = T26;
+NET "sw[0]" LOC = U26;

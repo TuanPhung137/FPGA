@@ -1,0 +1,152 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/majority
+Emajority
+Z1 w1617588801
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8majority.vhd
+Z7 Fmajority.vhd
+l0
+L8
+Va0_DcJZFMD:7af^V0PBIJ0
+!s100 U_gIG0k=65EGN5g[4bF;21
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1617588816
+!i10b 1
+Z10 !s108 1617588816.000000
+Z11 !s90 -reportprogress|300|majority.vhd|
+Z12 !s107 majority.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Amajority_3
+R2
+R3
+R4
+R5
+Z14 DEx4 work 8 majority 0 22 a0_DcJZFMD:7af^V0PBIJ0
+32
+R9
+l50
+L49
+V0nCF6[U_68JGaeeY772L;2
+!s100 >gHbo32dk^0cCC?:3?S?N3
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Amajority_2
+R2
+R3
+R4
+R5
+R14
+l36
+L33
+Vc>QWkb3?>bF^R:F?Q7i_<1
+!s100 o02I7_h?m`Y8d5k7f;0d=0
+R8
+32
+Z15 !s110 1617588759
+!i10b 1
+Z16 !s108 1617588759.000000
+R11
+R12
+!i113 0
+R13
+Z17 w1617588756
+Amajority_1
+R2
+R3
+R4
+R5
+R14
+l19
+L16
+V`fn;>33OaI8SR<nbIEW]L0
+!s100 MEORlHoW4L75Yk?ah0c:i0
+R8
+32
+R15
+!i10b 1
+R16
+R11
+R12
+!i113 0
+R13
+R17
+Abehavioral
+R2
+R3
+R4
+R5
+R14
+32
+!s110 1617587568
+l36
+L33
+VVz8C4WMmkTQOONfG_nOKa1
+!s100 Wo]ddFW5GDOLn:Y;5BeL<2
+R8
+!i10b 1
+!s108 1617587568.000000
+R11
+R12
+!i113 0
+R13
+w1617587553
+Emajority_test
+Z18 w1617588810
+R2
+R3
+R4
+R5
+R0
+Z19 8majority_test.vhd
+Z20 Fmajority_test.vhd
+l0
+L8
+VDDzaBFcQf@hOS0`G@aggY1
+!s100 LM2QZTAW9PKo:lzFV@6A;2
+R8
+32
+R9
+!i10b 1
+R10
+Z21 !s90 -reportprogress|300|majority_test.vhd|
+Z22 !s107 majority_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 13 majority_test 0 22 DDzaBFcQf@hOS0`G@aggY1
+32
+R9
+l24
+L11
+VQ;cbidGST2K@;k?9mePe_0
+!s100 VE5YA54^PbJ2U21fY^h230
+R8
+!i10b 1
+R10
+R21
+R22
+!i113 0
+R13

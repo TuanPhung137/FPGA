@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.syr" 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.syr" 
+netgen -intstyle ise -ar Structure -tm multiplier_2bit -w -dir netgen/synthesis -ofmt vhdl -sim multiplier_2bit.ngc multiplier_2bit_synthesis.vhd 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.syr" 
+netgen -intstyle ise -ar Structure -tm multiplier_2bit -w -dir netgen/synthesis -ofmt vhdl -sim multiplier_2bit.ngc multiplier_2bit_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplier_2bit.ucf -p xc4vsx35-ff668-10 "multiplier_2bit.ngc" multiplier_2bit.ngd  
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o multiplier_2bit_map.ncd multiplier_2bit.ngd multiplier_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_2bit_map.ncd multiplier_2bit.ncd multiplier_2bit.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml multiplier_2bit.twx multiplier_2bit.ncd -o multiplier_2bit.twr multiplier_2bit.pcf -ucf multiplier_2bit.ucf 
+bitgen -intstyle ise -f multiplier_2bit.ut multiplier_2bit.ncd 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.syr" 
+netgen -intstyle ise -ar Structure -tm multiplier_2bit -w -dir netgen/synthesis -ofmt vhdl -sim multiplier_2bit.ngc multiplier_2bit_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplier_2bit.ucf -p xc4vsx35-ff668-10 "multiplier_2bit.ngc" multiplier_2bit.ngd  
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o multiplier_2bit_map.ncd multiplier_2bit.ngd multiplier_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_2bit_map.ncd multiplier_2bit.ncd multiplier_2bit.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml multiplier_2bit.twx multiplier_2bit.ncd -o multiplier_2bit.twr multiplier_2bit.pcf -ucf multiplier_2bit.ucf 
+bitgen -intstyle ise -f multiplier_2bit.ut multiplier_2bit.ncd 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_multiplier/multiplier_2bit.syr" 
+netgen -intstyle ise -ar Structure -tm multiplier_2bit -w -dir netgen/synthesis -ofmt vhdl -sim multiplier_2bit.ngc multiplier_2bit_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc multiplier_2bit.ucf -p xc4vsx35-ff668-10 "multiplier_2bit.ngc" multiplier_2bit.ngd  
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o multiplier_2bit_map.ncd multiplier_2bit.ngd multiplier_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 multiplier_2bit_map.ncd multiplier_2bit.ncd multiplier_2bit.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml multiplier_2bit.twx multiplier_2bit.ncd -o multiplier_2bit.twr multiplier_2bit.pcf -ucf multiplier_2bit.ucf 
+bitgen -intstyle ise -f multiplier_2bit.ut multiplier_2bit.ncd 

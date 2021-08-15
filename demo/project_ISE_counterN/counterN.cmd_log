@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+netgen -intstyle ise -ar Structure -tm counterN -w -dir netgen/synthesis -ofmt vhdl -sim counterN.ngc counterN_synthesis.vhd 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+netgen -intstyle ise -ar Structure -tm counterN -w -dir netgen/synthesis -ofmt vhdl -sim counterN.ngc counterN_synthesis.vhd 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+xst -intstyle ise -ifn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.xst" -ofn "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.syr" 
+netgen -intstyle ise -ar Structure -tm counterN -w -dir netgen/synthesis -ofmt vhdl -sim counterN.ngc counterN_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counterN.ucf -p xc4vsx35-ff668-10 "counterN.ngc" counterN.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm counterN -w -dir netgen/translate -ofmt vhdl -sim counterN.ngd counterN_translate.vhd 
+map -intstyle ise -p xc4vsx35-ff668-10 -global_opt off -cm area -ir off -pr off -c 100 -o counterN_map.ncd counterN.ngd counterN.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml counterN_preroute.twx counterN_map.ncd -o counterN_preroute.twr counterN.pcf -ucf counterN.ucf 
+netgen -intstyle ise -s 10  -pcf counterN.pcf -rpw 100 -tpw 0 -ar Structure -tm counterN -w -dir netgen/map -ofmt vhdl -sim counterN_map.ncd counterN_map.vhd 
+par -w -intstyle ise -ol high -t 1 counterN_map.ncd counterN.ncd counterN.pcf 
+trce -intstyle ise -v 3 -s 10 -n 3 -fastpaths -xml counterN.twx counterN.ncd -o counterN.twr counterN.pcf -ucf counterN.ucf 
+netgen -intstyle ise -s 10  -pcf counterN.pcf -rpw 100 -tpw 0 -ar Structure -tm counterN -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim counterN.ncd counterN_timesim.vhd 
+bitgen -intstyle ise -f counterN.ut counterN.ncd 

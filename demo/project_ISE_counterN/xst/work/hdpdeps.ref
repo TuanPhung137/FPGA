@@ -1,0 +1,9 @@
+V3 3
+FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.vhd" 2021/04/23.09:09:49 P.20131013
+EN work/counterN 1619143805 \
+      FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177
+AR work/counterN/Behavioral 1619143806 \
+      FL "D:/Document FPGA/ThayThuy/FPGA/Virtex_4_ML402/project_ISE_counterN/counterN.vhd" \
+      EN work/counterN 1619143805
