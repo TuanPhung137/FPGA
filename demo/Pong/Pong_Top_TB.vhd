@@ -11,7 +11,7 @@ entity Pong_Top_TB is
 end entity Pong_Top_TB;
 
 architecture behavioral of Pong_Top_TB is
-
+  constant c_Video_Width : integer := 3;
   constant c_Total_Cols  : integer := 794;
   constant c_Total_Rows  : integer := 525;
   constant c_Active_Cols : integer := 640;
@@ -48,6 +48,7 @@ begin
   -- Instantiate the Unit Under Test (UUT)
   Pong_Top_UUT : entity work.Pong_Top
     generic map (
+	  g_Video_Width => c_Video_Width,
       g_Total_Cols  => c_Total_Cols,
       g_Total_Rows  => c_Total_Rows,
       g_Active_Cols => c_Active_Cols,
