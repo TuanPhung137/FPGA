@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/shifter
+Eshifter
+Z1 w1629514543
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8shifter.vhd
+Z6 Fshifter.vhd
+l0
+L8
+VQN;_eP<25VnW=NbmQojM?1
+!s100 OJQNlUR^?z<28KCeI8AB_1
+Z7 OL;C;10.5;63
+32
+Z8 !s110 1629514548
+!i10b 1
+Z9 !s108 1629514548.000000
+Z10 !s90 -reportprogress|300|shifter.vhd|
+Z11 !s107 shifter.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 shifter 0 22 QN;_eP<25VnW=NbmQojM?1
+32
+R8
+l49
+L45
+VXg=PcOXPW@cV21bOB048Z1
+!s100 7ge3gn3^fL5ZMdLIY4`[F1
+R7
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Eshifter_test
+Z13 w1629431891
+R3
+R4
+R0
+Z14 8shifter_test.vhd
+Z15 Fshifter_test.vhd
+l0
+L6
+V@^:XK0h^n9=b]EQ[_:OVW1
+!s100 _kd8]:NJb95kM16QJi1e33
+R7
+32
+R8
+!i10b 1
+R9
+Z16 !s90 -reportprogress|300|shifter_test.vhd|
+Z17 !s107 shifter_test.vhd|
+!i113 0
+R12
+Atest
+R3
+R4
+DEx4 work 12 shifter_test 0 22 @^:XK0h^n9=b]EQ[_:OVW1
+32
+R8
+l20
+L9
+VTlmckaf<01m<z>7d7n5^k3
+!s100 Een<_2m0Y4?]kLb:ATgfz3
+R7
+!i10b 1
+R9
+R16
+R17
+!i113 0
+R12

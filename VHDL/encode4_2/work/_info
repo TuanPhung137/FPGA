@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/encode4_2
+Eencode4_2
+Z1 w1629125845
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8encode4_2.vhd
+Z6 Fencode4_2.vhd
+l0
+L6
+V8eK3>hSDhOoAI3RF=af:n0
+!s100 dJ2OB[71o9PDK8bMHMTRe0
+Z7 OL;C;10.5;63
+32
+Z8 !s110 1629125850
+!i10b 1
+Z9 !s108 1629125850.000000
+Z10 !s90 -reportprogress|300|encode4_2.vhd|
+Z11 !s107 encode4_2.vhd|
+!i113 0
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 9 encode4_2 0 22 8eK3>hSDhOoAI3RF=af:n0
+32
+R8
+l15
+L13
+V^7<PT7Z`@QlR9MiR^S[zN3
+!s100 OW1AjTBlQbA0YJMUe1L9<3
+R7
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+Eencode4_2_test
+Z13 w1629125190
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R3
+R4
+R0
+Z16 8encode4_2_test.vhd
+Z17 Fencode4_2_test.vhd
+l0
+L7
+VXPFa7j<`0`Y95699:EWf32
+!s100 _L_1V=kVcV1lP@VdnHi[d1
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|encode4_2_test.vhd|
+Z19 !s107 encode4_2_test.vhd|
+!i113 0
+R12
+Atest
+R14
+R15
+R3
+R4
+DEx4 work 14 encode4_2_test 0 22 XPFa7j<`0`Y95699:EWf32
+32
+R8
+l19
+L10
+VAHn0^Z8FVZHJQ6GaYhDEa2
+!s100 zmBgOY5VRUVO@cW:O7Zj^0
+R7
+!i10b 1
+R9
+R18
+R19
+!i113 0
+R12

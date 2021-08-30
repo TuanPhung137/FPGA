@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/MUX4_1
+Emux4_1
+Z1 w1628862066
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8MUX4_1.vhd
+Z7 FMUX4_1.vhd
+l0
+L7
+VFcPhC5iCLj;FG[7H3PLgQ1
+!s100 9NGJ2NKTE3LC1QgVhWcg]0
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1628862092
+!i10b 1
+Z10 !s108 1628862092.000000
+Z11 !s90 -reportprogress|300|MUX4_1.vhd|
+Z12 !s107 MUX4_1.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 6 mux4_1 0 22 FcPhC5iCLj;FG[7H3PLgQ1
+32
+R9
+l16
+L15
+VjMj=257gDJeBA<QcM8d5g3
+!s100 `B<ePRS^H4zUT?IG5knWX1
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Emux4_1_test
+Z14 w1628862090
+R2
+R3
+R4
+R5
+R0
+Z15 8MUX4_1_test.vhd
+Z16 FMUX4_1_test.vhd
+l0
+L7
+V0]iIg95W<[kQGWUBhFUY93
+!s100 6AF4J80GKh@_=::SdFRaQ1
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|MUX4_1_test.vhd|
+Z18 !s107 MUX4_1_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 11 mux4_1_test 0 22 0]iIg95W<[kQGWUBhFUY93
+32
+R9
+l24
+L10
+VHVjEijN0_dacPYK;P1<kh3
+!s100 8ZSAGhCh3_EiPBzafg4[61
+R8
+!i10b 1
+R10
+R17
+R18
+!i113 0
+R13

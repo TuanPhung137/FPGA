@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/clock_divider
+Eclock_divider
+Z1 w1629544619
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8clock_divider.vhd
+Z7 Fclock_divider.vhd
+l0
+L7
+V0EW1QnWD4bSm[SVzO>D6E0
+!s100 `OS]nk3734lM?H4g7WK>82
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1629544624
+!i10b 1
+Z10 !s108 1629544624.000000
+Z11 !s90 -reportprogress|300|clock_divider.vhd|
+Z12 !s107 clock_divider.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 13 clock_divider 0 22 0EW1QnWD4bSm[SVzO>D6E0
+32
+R9
+l18
+L15
+VB=bQE2_dJ2XlEcmEUEJ;F2
+!s100 LU3X`MFI?:J0kP0i2b:EJ3
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Eclock_test
+Z14 w1629544351
+R4
+R5
+R0
+Z15 8clock_test.vhd
+Z16 Fclock_test.vhd
+l0
+L5
+Vi]cSI>jV^H[7Ujb4[`74J2
+!s100 kfY:SHEFTD`?P3Jg^]Z7j3
+R8
+32
+Z17 !s110 1629544625
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|clock_test.vhd|
+Z19 !s107 clock_test.vhd|
+!i113 0
+R13
+Atest
+R4
+R5
+DEx4 work 10 clock_test 0 22 i]cSI>jV^H[7Ujb4[`74J2
+32
+R17
+l19
+L8
+V^58V@BSjC[le2nL^::?jM3
+!s100 =TVzhKE_IVR3FK@M5lEWh0
+R8
+!i10b 1
+R10
+R18
+R19
+!i113 0
+R13

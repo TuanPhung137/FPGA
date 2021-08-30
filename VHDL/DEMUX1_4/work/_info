@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/DEMUX1_4
+Edemux1_4
+Z1 w1628864143
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8DEMUX1_4.vhd
+Z7 FDEMUX1_4.vhd
+l0
+L7
+V:[mWQzYF:cfWT9`0TENlo2
+!s100 c2L4E@WG<W;5WKz4Nn1bS2
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1628864544
+!i10b 1
+Z10 !s108 1628864544.000000
+Z11 !s90 -reportprogress|300|DEMUX1_4.vhd|
+Z12 !s107 DEMUX1_4.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 8 demux1_4 0 22 :[mWQzYF:cfWT9`0TENlo2
+32
+R9
+l16
+L15
+Vf7^FP=]bA7OM6ideK30S:1
+!s100 ^_gMfX;XCL7=5^2nY:oYg3
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Edemux1_4_test
+Z14 w1628864543
+R2
+R3
+R4
+R5
+R0
+Z15 8DEMUX1_4_test.vhd
+Z16 FDEMUX1_4_test.vhd
+l0
+L7
+VYfO2CMb=;]EDOAA5oab?=3
+!s100 gJ0]hKG<h_ABXSzedj>8d3
+R8
+32
+Z17 !s110 1628864545
+!i10b 1
+Z18 !s108 1628864545.000000
+Z19 !s90 -reportprogress|300|DEMUX1_4_test.vhd|
+Z20 !s107 DEMUX1_4_test.vhd|
+!i113 0
+R13
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 13 demux1_4_test 0 22 YfO2CMb=;]EDOAA5oab?=3
+32
+R17
+l24
+L10
+V_fj?on?VT=F:J>WJQ@?ZX2
+!s100 O>Elk6<4]Z:;NEFS;0G0[0
+R8
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R13

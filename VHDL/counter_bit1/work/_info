@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/counter_bit1
+Ecounter_bit1
+Z1 w1629362933
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8counter_bit1.vhd
+Z7 Fcounter_bit1.vhd
+l0
+L8
+V<fQZLg1I:]AE=0:`<KEVJ0
+!s100 o[gdbM0RC`<UG7lmi`>Z10
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1629362948
+!i10b 1
+Z10 !s108 1629362947.000000
+Z11 !s90 -reportprogress|300|counter_bit1.vhd|
+Z12 !s107 counter_bit1.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 12 counter_bit1 0 22 <fQZLg1I:]AE=0:`<KEVJ0
+32
+R9
+l50
+L47
+VSQl=enmICe?_g9cib;U;03
+!s100 PlX>=^1NPKTP_gLH^U<L:0
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Ecounterbit1_test
+Z14 w1629337920
+R4
+R5
+R0
+Z15 8counterbit1_test.vhd
+Z16 Fcounterbit1_test.vhd
+l0
+L5
+V6Q`3_l5LB4??D8kbj:e7a1
+!s100 m<MQ?:c1nhzHNSBiJHJOG3
+R8
+32
+R9
+!i10b 1
+Z17 !s108 1629362948.000000
+Z18 !s90 -reportprogress|300|counterbit1_test.vhd|
+Z19 !s107 counterbit1_test.vhd|
+!i113 0
+R13
+Atest
+R4
+R5
+DEx4 work 16 counterbit1_test 0 22 6Q`3_l5LB4??D8kbj:e7a1
+32
+R9
+l19
+L8
+VPhOz<Q8YiPD23S5oS]0PM0
+!s100 2kS8jVef9T298MaY`<;_R3
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R13

@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/full_adder
+T_opt
+!s110 1628757997
+VdRED4;X5@@RHI0mP9^=9]2
+04 10 4 work adder_test test 1
+=1-ecf4bb08b65c-6114dfeb-37f-fa8
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+R0
+Eadder_test
+Z1 w1628758207
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8adder_test.vhd
+Z7 Fadder_test.vhd
+l0
+L7
+V:H3zIRJb3k7SIB^ez?Hfn1
+!s100 CUOMc0:10IaR<gHjilRCc0
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1628758221
+!i10b 1
+Z10 !s108 1628758221.000000
+Z11 !s90 -reportprogress|300|adder_test.vhd|
+Z12 !s107 adder_test.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Atest
+R2
+R3
+R4
+R5
+DEx4 work 10 adder_test 0 22 :H3zIRJb3k7SIB^ez?Hfn1
+32
+R9
+l29
+L10
+VoS3gS7o2R]J8z9Nk5FHz_3
+!s100 U]>TD:1bCOmP4F3o9mUJW0
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Efull_adder
+Z14 w1628754933
+R2
+R3
+R4
+R5
+R0
+Z15 8full_adder.vhd
+Z16 Ffull_adder.vhd
+l0
+L7
+VILTT[IMNH?SMTY6FBd3Qk3
+!s100 WMd>9dmW@hHiY6eT8SLXN1
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|full_adder.vhd|
+Z18 !s107 full_adder.vhd|
+!i113 0
+R13
+Adataflow
+R2
+R3
+R4
+R5
+DEx4 work 10 full_adder 0 22 ILTT[IMNH?SMTY6FBd3Qk3
+32
+R9
+l19
+L17
+V_YUWiK:o;BE:]_4KRhinl3
+!s100 CaCSiE0kMgAQGH:8Tf`>i0
+R8
+!i10b 1
+R10
+R17
+R18
+!i113 0
+R13
