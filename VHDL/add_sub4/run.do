@@ -1,5 +1,5 @@
 quit -sim
-vlib workk
+vlib work
 
 vcom add_sub4.vhd
 vcom add_sub4_test.vhd
