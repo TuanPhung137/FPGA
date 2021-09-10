@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/test_bench
+Eadder_testbench
+Z1 w1618154417
+Z2 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8adder_testbench.vhd
+Z8 Fadder_testbench.vhd
+l0
+L13
+V;E]Z2:hF9d<?M1Y?l3A3d1
+!s100 WJ@2;BZc2cG[gC728=Kdd3
+Z9 OL;C;10.5;63
+32
+Z10 !s110 1618186925
+!i10b 1
+Z11 !s108 1618186925.000000
+Z12 !s90 -reportprogress|300|adder_testbench.vhd|
+Z13 !s107 adder_testbench.vhd|
+!i113 0
+Z14 tExplicit 1 CvgOpt 0
+Atestbench
+Z15 DEx4 work 6 addern 0 22 d2;Sk4Q]g1C>:]<To@`ZH3
+R2
+R3
+R4
+R5
+R6
+DEx4 work 15 adder_testbench 0 22 ;E]Z2:hF9d<?M1Y?l3A3d1
+32
+R10
+l39
+L16
+Vj5EW>DzoHb9R`hTTRH]7^1
+!s100 ;e^@SKAOU]8^:m^YA>M@72
+R9
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+Eaddern
+Z16 w1618186917
+R3
+R4
+R5
+R6
+R0
+Z17 8adderN.vhd
+Z18 FadderN.vhd
+l0
+L8
+Vd2;Sk4Q]g1C>:]<To@`ZH3
+!s100 zlK?8IZAZm<i5GOA]GK;_3
+R9
+32
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|adderN.vhd|
+Z20 !s107 adderN.vhd|
+!i113 0
+R14
+Aadd_2
+R3
+R4
+R5
+R6
+R15
+32
+R10
+l61
+L54
+VYGBRO]7UZ:^Lczeh1N9;40
+!s100 <k0bH3on^h8X>AJTeLkG01
+R9
+!i10b 1
+R11
+R19
+R20
+!i113 0
+R14
+Aadd_1
+R3
+R4
+R5
+R6
+R15
+l43
+L32
+VVRbEDO7n]<E2AXE:ZIHaH0
+!s100 741Te3DInkm8zn;3lMoz_3
+R9
+32
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 0
+R14
+Aadd_operator
+R3
+R4
+R5
+R6
+R15
+32
+R10
+l23
+L19
+VWJ_0]8AkD0IeUk=U@R`Zm0
+!s100 I6>Cja<aI?WW6:5b<Fj4B1
+R9
+!i10b 1
+R11
+R19
+R20
+!i113 0
+R14
+Efull_adder
+Z21 w1617980970
+R3
+R4
+R5
+R6
+R0
+Z22 8full_adder.vhd
+Z23 Ffull_adder.vhd
+l0
+L8
+VCV@g6Sja^WXZHn7X6>9Ta3
+!s100 l9X457^g@QJkH?]hD6CaF1
+R9
+32
+R10
+!i10b 1
+R11
+Z24 !s90 -reportprogress|300|full_adder.vhd|
+Z25 !s107 full_adder.vhd|
+!i113 0
+R14
+Adataflow
+R3
+R4
+R5
+R6
+DEx4 work 10 full_adder 0 22 CV@g6Sja^WXZHn7X6>9Ta3
+l19
+L18
+V7mbN[T;[_a;Z63KB=_N:Z1
+!s100 7e<B>Rz`:4za2eYG3jN_<3
+R9
+32
+R10
+!i10b 1
+R11
+R24
+R25
+!i113 0
+R14
