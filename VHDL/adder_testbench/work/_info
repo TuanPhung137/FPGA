@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/adder_testbench
+Eadd_testbench
+Z1 w1631267378
+Z2 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8add_testbench.vhd
+Z8 Fadd_testbench.vhd
+l0
+L11
+VQckF8OWm;hY3>875JmZ9Q2
+!s100 M1J5KSoOze26cVTefhaf[2
+Z9 OL;C;10.5;63
+32
+Z10 !s110 1631268073
+!i10b 1
+Z11 !s108 1631268072.000000
+Z12 !s90 -reportprogress|300|add_testbench.vhd|
+Z13 !s107 add_testbench.vhd|
+!i113 0
+Z14 tExplicit 1 CvgOpt 0
+Atest
+Z15 DEx4 work 6 addern 0 22 ]g:^6J>Q7g<egUKkKeFHU0
+R2
+R3
+R4
+R5
+R6
+DEx4 work 13 add_testbench 0 22 QckF8OWm;hY3>875JmZ9Q2
+32
+R10
+l45
+L14
+V_ZdG[J7?>bcca38fWoH_l3
+!s100 0@0d`Kf=iR2;FWDiXdQnf3
+R9
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+Eaddern
+Z16 w1631268066
+R3
+R4
+R5
+R6
+R0
+Z17 8add_gen.vhd
+Z18 Fadd_gen.vhd
+l0
+L8
+V]g:^6J>Q7g<egUKkKeFHU0
+!s100 aSS3YYEiG>M>f4lh7Im5=3
+R9
+32
+Z19 !s110 1631268072
+!i10b 1
+R11
+Z20 !s90 -reportprogress|300|add_gen.vhd|
+Z21 !s107 add_gen.vhd|
+!i113 0
+R14
+Astructure
+R3
+R4
+R5
+R6
+R15
+l83
+L72
+V_N<OV82LlgM0c_m1LNAoj3
+!s100 7:AGGhnWQT_7HaPf3DXJk2
+R9
+32
+R19
+!i10b 1
+R11
+R20
+R21
+!i113 0
+R14
+Adataflow
+R3
+R4
+R5
+R6
+R15
+32
+R19
+l49
+L41
+V=n?`B_i8QJma8fPnEm[;R0
+!s100 GB4k:?B;gH<KQ1K3de80z1
+R9
+!i10b 1
+R11
+R20
+R21
+!i113 0
+R14
+Aadd_operater
+R3
+R4
+R5
+R6
+R15
+32
+R19
+l33
+L20
+ViR^h9DK5`GM4J7LGE@Tee3
+!s100 1=nn3mm^U?^YzTOnBQ^;^2
+R9
+!i10b 1
+R11
+R20
+R21
+!i113 0
+R14
+Efull_adder
+Z22 w1628754933
+R3
+R4
+R5
+R6
+R0
+Z23 8full_adder.vhd
+Z24 Ffull_adder.vhd
+l0
+L7
+VILTT[IMNH?SMTY6FBd3Qk3
+!s100 WMd>9dmW@hHiY6eT8SLXN1
+R9
+32
+R19
+!i10b 1
+R11
+Z25 !s90 -reportprogress|300|full_adder.vhd|
+Z26 !s107 full_adder.vhd|
+!i113 0
+R14
+Adataflow
+R3
+R4
+R5
+R6
+DEx4 work 10 full_adder 0 22 ILTT[IMNH?SMTY6FBd3Qk3
+l19
+L17
+V_YUWiK:o;BE:]_4KRhinl3
+!s100 CaCSiE0kMgAQGH:8Tf`>i0
+R9
+32
+R19
+!i10b 1
+R11
+R25
+R26
+!i113 0
+R14
