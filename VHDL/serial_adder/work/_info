@@ -1,0 +1,345 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/BaitapVHDL/serial_adder
+Eadder_2
+Z1 w1618573327
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8adder_2.vhd
+Z7 Fadder_2.vhd
+l0
+L8
+VIOe3daA=[I5OUVPY21;<i1
+!s100 ]gHlRnaEic56P2eDAzECe3
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1631764184
+!i10b 1
+Z10 !s108 1631764184.000000
+Z11 !s90 -reportprogress|300|adder_2.vhd|
+Z12 !s107 adder_2.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+DEx4 work 7 adder_2 0 22 IOe3daA=[I5OUVPY21;<i1
+32
+R9
+l29
+L18
+V?D=1SZ0aBQIb=JWUlT_KH0
+!s100 5>[6LCM5N<HM>gRMWgKL40
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Ecounter
+Z14 w1618573419
+R3
+R2
+R4
+R5
+R0
+Z15 8counter.vhd
+Z16 Fcounter.vhd
+l0
+L8
+VX5f`WL7F5>LPM]OlJO:3a0
+!s100 ?7Gg7cHk54GaK?VLJc^Ti0
+R8
+32
+Z17 !s110 1631764185
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|counter.vhd|
+Z19 !s107 counter.vhd|
+!i113 0
+R13
+Abehavioral
+R3
+R2
+R4
+R5
+DEx4 work 7 counter 0 22 X5f`WL7F5>LPM]OlJO:3a0
+32
+R17
+l20
+L18
+VajXBkM2d8J;FDfEflOY293
+!s100 KLTR<hbNQ1M5zD]NNhZW[2
+R8
+!i10b 1
+R10
+R18
+R19
+!i113 0
+R13
+Pess_comp
+R2
+R3
+R4
+R5
+32
+R17
+w1631763931
+R0
+8ess_comp.vhd
+Fess_comp.vhd
+l0
+L8
+VQflPn[<`T9I5Ka1j^ndW31
+!s100 =WLKbf0TQZo>FK82FP<R>3
+R8
+!i10b 1
+Z20 !s108 1631764185.000000
+!s90 -reportprogress|300|ess_comp.vhd|
+!s107 ess_comp.vhd|
+!i113 0
+R13
+Efull_adder
+Z21 w1617205229
+R2
+R3
+R4
+R5
+R0
+Z22 8full_adder.vhd
+Z23 Ffull_adder.vhd
+l0
+L8
+Vkz_13XK]4SX1T2onoVa0`0
+!s100 2LT:hK:1VFnLBilgNaN050
+R8
+32
+R9
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|full_adder.vhd|
+Z25 !s107 full_adder.vhd|
+!i113 0
+R13
+Adata_flow
+R2
+R3
+R4
+R5
+DEx4 work 10 full_adder 0 22 kz_13XK]4SX1T2onoVa0`0
+32
+R9
+l20
+L19
+VU<I2lH3_IM63PSK5LhJ_V1
+!s100 HK^88?76cP2BX@W4N[Tb12
+R8
+!i10b 1
+R10
+R24
+R25
+!i113 0
+R13
+Eserial_addder
+Z26 w1631764182
+Z27 DPx4 work 8 ess_comp 0 22 QflPn[<`T9I5Ka1j^ndW31
+R2
+R3
+R4
+R5
+R0
+Z28 8serial_adder.vhd
+Z29 Fserial_adder.vhd
+l0
+L11
+VDWo=h<;nQmAkCaal;EUi61
+!s100 b=;i<Xi`eQI5U4HY[WIP[0
+R8
+32
+R17
+!i10b 1
+R20
+Z30 !s90 -reportprogress|300|serial_adder.vhd|
+Z31 !s107 serial_adder.vhd|
+!i113 0
+R13
+Abehavioral
+R27
+R2
+R3
+R4
+R5
+Z32 DEx4 work 13 serial_addder 0 22 DWo=h<;nQmAkCaal;EUi61
+32
+R17
+l104
+L100
+VHTj9gaCzeP6BC?5YZ_dZH3
+!s100 [Amf>Mf2Umj?4lNHNjGOA2
+R8
+!i10b 1
+R20
+R30
+R31
+!i113 0
+R13
+Astructure
+R27
+R2
+R3
+R4
+R5
+R32
+32
+R17
+l44
+L26
+V_]6dWH[zT@ZMhIma4dQZ`0
+!s100 U<^j4T:1jd3ka^:VL2ME?3
+R8
+!i10b 1
+R20
+R30
+R31
+!i113 0
+R13
+Eserial_adder_test
+Z33 w1618576773
+R2
+R3
+R4
+R5
+R0
+Z34 8serial_adder_test.vhd
+Z35 Fserial_adder_test.vhd
+l0
+L8
+VHniB:QRf9nkEPl]R>M^P=3
+!s100 bOb^Tban?I:IJlNV7ZC:J1
+R8
+32
+Z36 !s110 1618585945
+!i10b 1
+Z37 !s108 1618585945.000000
+Z38 !s90 -reportprogress|300|serial_adder_test.vhd|
+Z39 !s107 serial_adder_test.vhd|
+!i113 0
+R13
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 17 serial_adder_test 0 22 HniB:QRf9nkEPl]R>M^P=3
+32
+R36
+l35
+L11
+V68iL1laeI@k5A61T:?cS<0
+!s100 EIH2e9UO[6KlO:9oZoDI80
+R8
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R13
+Eserial_adder_testbench
+Z40 w1618591966
+Z41 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+R2
+R3
+R4
+R5
+R0
+Z42 8serial_adder_testbench.vhd
+Z43 Fserial_adder_testbench.vhd
+l0
+L12
+VbKBLZc?6JzzNn>QBSPoZ32
+!s100 KWW?C<GCLlL10RZ7o=Q@B1
+R8
+32
+R17
+!i10b 1
+R20
+Z44 !s90 -reportprogress|300|serial_adder_testbench.vhd|
+Z45 !s107 serial_adder_testbench.vhd|
+!i113 0
+R13
+Atestbench
+R27
+R32
+R41
+R2
+R3
+R4
+R5
+DEx4 work 22 serial_adder_testbench 0 22 bKBLZc?6JzzNn>QBSPoZ32
+32
+R17
+l44
+L15
+V8JMRCNV`8ZOR1k=o2gfCf3
+!s100 nE]@@Z]8I=7nXD:B]^VIo1
+R8
+!i10b 1
+R20
+R44
+R45
+!i113 0
+R13
+Eshifter
+Z46 w1631763831
+R2
+R3
+R4
+R5
+R0
+Z47 8shifter.vhd
+Z48 Fshifter.vhd
+l0
+L8
+VVKeH0T5C6Cb=iBk01U98i2
+!s100 c:P<[W=`H[@LHfQchSDQL0
+R8
+32
+R9
+!i10b 1
+R10
+Z49 !s90 -reportprogress|300|shifter.vhd|
+Z50 !s107 shifter.vhd|
+!i113 0
+R13
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 7 shifter 0 22 VKeH0T5C6Cb=iBk01U98i2
+32
+R9
+l45
+L39
+VjhhjX6KG29A;o5fA?XY`X2
+!s100 0hzE]4jFKFimIF?_nAToP1
+R8
+!i10b 1
+R10
+R49
+R50
+!i113 0
+R13
