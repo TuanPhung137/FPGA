@@ -1,0 +1,169 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/Digital Image Processing/Matlab/grayscalse
+T_opt
+!s110 1632994308
+V^[^JJGJ0G@1lDG5gf20Zz3
+04 6 10 work im_ram behavioral 1
+=1-ecf4bb08b65c-61558402-1f5-1738
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+R0
+T_opt1
+!s110 1633139045
+VN;ecS;^m:Rzollbf4_39<3
+04 13 10 work median_filter behavioral 1
+=1-ecf4bb08b65c-6157b960-243-14d4
+R1
+R2
+n@_opt1
+R3
+R0
+Efilter_testbench
+Z4 w1633139730
+Z5 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z10 8filter_testbench.vhd
+Z11 Ffilter_testbench.vhd
+l0
+L11
+VX;H0:9Tf58M<LJMbcm0M_2
+!s100 >]8_^F>DUN7ofzCa`j[6g3
+Z12 OL;C;10.5;63
+32
+Z13 !s110 1633139777
+!i10b 1
+Z14 !s108 1633139776.000000
+Z15 !s90 -reportprogress|300|filter_testbench.vhd|
+Z16 !s107 filter_testbench.vhd|
+!i113 0
+Z17 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+R7
+R8
+R9
+DEx4 work 16 filter_testbench 0 22 X;H0:9Tf58M<LJMbcm0M_2
+32
+R13
+l76
+L14
+V[e=Uz5Va]`aojm9f>n44]3
+!s100 IbkHh_TkmD5P1>>6_QdKG3
+R12
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+Eim_ram
+Z18 w1633009432
+Z19 DPx11 floatfixlib 9 fixed_pkg 0 22 aazIYQE<9H8;aLLOZJQ771
+Z20 DPx11 floatfixlib 17 fixed_float_types 0 22 cW]eNFhGGd5lB:5@0FCJB2
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z22 DPx11 floatfixlib 9 float_pkg 0 22 Iz6I_9UbN?FToUfT1nJm@1
+R7
+R8
+R9
+R0
+Z23 8im_ram.vhd
+Z24 Fim_ram.vhd
+l0
+L17
+VA?D10Ai:d<AJ4BXHDO3GN1
+!s100 DmH^Yo]LI1NKbWB2D;gLo0
+R12
+32
+Z25 !s110 1633139775
+!i10b 1
+Z26 !s108 1633139775.000000
+Z27 !s90 -reportprogress|300|im_ram.vhd|
+Z28 !s107 im_ram.vhd|
+!i113 0
+R17
+Abehavioral
+R19
+R20
+R21
+R22
+R7
+R8
+R9
+DEx4 work 6 im_ram 0 22 A?D10Ai:d<AJ4BXHDO3GN1
+32
+R25
+l65
+L30
+V1Pj]QRmj`<;G8C8BfHYKK1
+!s100 3?X]DZ?RHYknJVN2b4BQ=1
+R12
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R17
+Emedian_filter
+Z29 w1633139321
+R19
+R20
+R21
+R22
+R6
+R7
+R8
+R9
+R0
+Z30 8median_filter.vhd
+Z31 Fmedian_filter.vhd
+l0
+L13
+VRdIZNB:JRM1V;Kdd[]Z>[3
+!s100 SR22bF?_@T9YY2INADlND0
+R12
+32
+Z32 !s110 1633139776
+!i10b 1
+R26
+Z33 !s90 -reportprogress|300|median_filter.vhd|
+Z34 !s107 median_filter.vhd|
+!i113 0
+R17
+Abehavioral
+R19
+R20
+R21
+R22
+R6
+R7
+R8
+R9
+DEx4 work 13 median_filter 0 22 RdIZNB:JRM1V;Kdd[]Z>[3
+32
+R32
+l68
+L27
+Vn?HIC1jB:jCmZglgZnJ=Y0
+!s100 UUO5WC3hL=U:XRcJNLb`90
+R12
+!i10b 1
+R26
+R33
+R34
+!i113 0
+R17
