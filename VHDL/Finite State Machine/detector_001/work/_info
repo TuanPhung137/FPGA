@@ -1,0 +1,84 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/Finite State Machine/detector_001
+Edetector_001
+Z1 w1633742006
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8detector_001.vhd
+Z5 Fdetector_001.vhd
+l0
+L5
+Vf:kf8>@bR^;PSF928M<1N0
+!s100 B71jU3Tk=ZV^:fH`JKQ[T0
+Z6 OL;C;10.5;63
+32
+Z7 !s110 1633742047
+!i10b 1
+Z8 !s108 1633742047.000000
+Z9 !s90 -reportprogress|300|detector_001.vhd|
+Z10 !s107 detector_001.vhd|
+!i113 0
+Z11 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+DEx4 work 12 detector_001 0 22 f:kf8>@bR^;PSF928M<1N0
+32
+R7
+l23
+L16
+VHY33F:Y;PMb4H6<PXT4VX1
+!s100 9@:fSalmOkfgQjOnob0iE3
+R6
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+Edetector_test
+Z12 w1633742040
+R2
+R3
+R0
+Z13 8detector_test.vhd
+Z14 Fdetector_test.vhd
+l0
+L5
+VWnbiNhHDLOl]nO>8l=2PN3
+!s100 1KCG`U_[9H]@hE5b[iUz92
+R6
+32
+R7
+!i10b 1
+R8
+Z15 !s90 -reportprogress|300|detector_test.vhd|
+Z16 !s107 detector_test.vhd|
+!i113 0
+R11
+Atest
+R2
+R3
+DEx4 work 13 detector_test 0 22 WnbiNhHDLOl]nO>8l=2PN3
+32
+R7
+l25
+L8
+VJMOz[=bNfGb^M9k@7R9nS2
+!s100 Cg^RT]AYT0S_f^MWGlKF93
+R6
+!i10b 1
+R8
+R15
+R16
+!i113 0
+R11
