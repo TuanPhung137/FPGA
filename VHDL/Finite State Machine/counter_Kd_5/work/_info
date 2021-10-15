@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Document FPGA/ThayThuy/VHDL/Finite State Machine/counter_Kd_5
+Ecounter_fsm
+Z1 w1634224301
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8counter_FSM.vhd
+Z7 Fcounter_FSM.vhd
+l0
+L7
+VXaMKdO^IfT45JHdE1^CKQ0
+!s100 1gMZMn;i=FQL<NC>O@f_G3
+Z8 OL;C;10.5;63
+32
+Z9 !s110 1634224305
+!i10b 1
+Z10 !s108 1634224304.000000
+Z11 !s90 -reportprogress|300|counter_FSM.vhd|
+Z12 !s107 counter_FSM.vhd|
+!i113 0
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 11 counter_fsm 0 22 XaMKdO^IfT45JHdE1^CKQ0
+32
+R9
+l23
+L16
+VHzAX6X=@F1iOOCYJV>Z=F1
+!s100 fH5:F_`6DGIeTR9[PcKf80
+R8
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+Ecounter_test
+Z14 w1634220426
+R4
+R5
+R0
+Z15 8counter_test.vhd
+Z16 Fcounter_test.vhd
+l0
+L5
+V@<1Yo]7jdNJkZm8?O9>ST3
+!s100 HD5i;nQ0Z_8_6I^DkKdTR0
+R8
+32
+R9
+!i10b 1
+Z17 !s108 1634224305.000000
+Z18 !s90 -reportprogress|300|counter_test.vhd|
+Z19 !s107 counter_test.vhd|
+!i113 0
+R13
+Atest
+R4
+R5
+DEx4 work 12 counter_test 0 22 @<1Yo]7jdNJkZm8?O9>ST3
+32
+R9
+l21
+L8
+VERJUgR8>BI<iNMEnjM;jK3
+!s100 M4UTEU]1mg2DUU?NGgZO[3
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R13
